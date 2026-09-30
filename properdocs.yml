@@ -30,4 +30,4 @@ extra_javascript:
   - js/copy-button.js
 
 extra_css:
-  - css/estilo.css
+  - css/estilos.css
