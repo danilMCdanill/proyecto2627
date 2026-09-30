@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO - Proyecto Interdisciplinar 2026/27</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/estilos.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var properdocs_page_name = "PRACTICA 01 - CONFIGURACI\u00d3N E INSTALACI\u00d3N DEL ENTORNO";
+        var properdocs_page_input_path = "practica1.md";
+        var properdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Proyecto Interdisciplinar 2026/27
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" title="Escriba el término de búsqueda aquí" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navegación">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Menú de navegación en móvil">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Proyecto Interdisciplinar 2026/27</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Documentos"></a></li>
+      <li class="breadcrumb-item active">PRACTICA 01 - CONFIGURACIÓN E INSTALACIÓN DEL ENTORNO</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="capturas">Capturas</h2>
+<p><img alt="ProperDocs en funcionamiento: properdocs.yml abierto en VS Code, properdocs serve en la terminal y el sitio visible en 127.0.0.1:8000." src="../img/practica01/captura01.png" /></p>
+<p><em>Captura 01: ProperDocs en funcionamiento: <code>properdocs.yml</code> abierto en VS Code, <code>properdocs serve</code> en la terminal y el sitio visible en <code>127.0.0.1:8000</code>.</em></p>
+<p><img alt="Configuración de Git: comandos git config y listado con el usuario y el email." src="../img/practica01/captura02.png" /></p>
+<p><em>Captura 02: Configuración de Git: comandos <code>git config</code> y listado con el usuario y el email.</em></p>
+<p><img alt="Comprobación de la sesión de GitHub con gh auth status." src="../img/practica01/captura03.png" /></p>
+<p><em>Captura 03: Comprobación de la sesión de GitHub con <code>gh auth status</code>.</em></p>
+<p><img alt="Comprobación de la instalación de Herd con herd --version (1.30.1)." src="../img/practica01/captura04.png" /></p>
+<p><em>Captura 04: Comprobación de la instalación de Herd con <code>herd --version</code> (1.30.1).</em></p>
+<p><img alt="Carpeta personal en Finder con Herd, docs, proyecto2627 y properdocs.yml." src="../img/practica01/captura05.png" /></p>
+<p><em>Captura 05: Carpeta personal en Finder con <code>Herd</code>, <code>docs</code>, <code>proyecto2627</code> y <code>properdocs.yml</code>.</em></p>
+<p><img alt="Herd, sección Sites: sitio misitio.test con PHP 8.4 y ruta ~/Herd/misitio/." src="../img/practica01/captura06.png" /></p>
+<p><em>Captura 06: Herd, sección Sites: sitio <code>misitio.test</code> con PHP 8.4 y ruta <code>~/Herd/misitio/</code>.</em></p>
+<h2 id="resumen-de-elementos-y-plugin-de-readthedocs">Resumen de elementos y plugin de ReadtheDocs</h2>
+<p>En esta práctica la documentación se genera con <strong>ProperDocs</strong>, un generador de sitios estáticos que convierte archivos Markdown en una web. El aspecto lo da el tema <strong><code>readthedocs</code></strong> (<code>theme: readthedocs</code> en <code>properdocs.yml</code>), que ofrece una barra lateral de navegación, un buscador integrado y un diseño que se adapta al tamaño de la pantalla. Con <code>locale: es</code> los textos del tema (buscador, botones anterior/siguiente) aparecen en español.</p>
+<p><img alt="Sitio con el tema readthedocs: barra lateral con el menú, buscador, ruta de navegación y contenido de la práctica." src="../img/practica01/captura07.png" /></p>
+<p><em>Captura 07: Sitio generado con el tema <code>readthedocs</code>: barra lateral con el menú definido en <code>nav</code>, cuadro de búsqueda arriba a la izquierda, ruta de navegación y contenido a la derecha.</em></p>
+<h3 id="elementos-utilizados">Elementos utilizados</h3>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Dónde se configura</th>
+<th>Qué hace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>site_name</code></td>
+<td><code>properdocs.yml</code></td>
+<td>Título del sitio, que se muestra en la cabecera de la barra lateral</td>
+</tr>
+<tr>
+<td><code>nav</code></td>
+<td><code>properdocs.yml</code></td>
+<td>Define el menú lateral y el orden de las páginas</td>
+</tr>
+<tr>
+<td><code>theme</code> (<code>readthedocs</code>, <code>locale: es</code>)</td>
+<td><code>properdocs.yml</code></td>
+<td>Tema con barra lateral y buscador, con la interfaz en español</td>
+</tr>
+<tr>
+<td><code>markdown_extensions</code> (<code>pymdownx.*</code>)</td>
+<td><code>properdocs.yml</code></td>
+<td>Amplían el Markdown: bloques de código (<code>superfences</code>, <code>highlight</code>), avisos (<code>blocks.admonition</code>), listas de tareas (<code>tasklist</code>), teclas (<code>keys</code>), texto marcado (<code>mark</code>), etc.</td>
+</tr>
+<tr>
+<td><code>extra_javascript</code></td>
+<td><code>properdocs.yml</code></td>
+<td>Carga MathJax (fórmulas matemáticas) y <code>js/copy-button.js</code>, un script propio para copiar el código</td>
+</tr>
+<tr>
+<td><code>extra_css</code></td>
+<td><code>properdocs.yml</code></td>
+<td>Añade una hoja de estilos propia guardada en <code>docs/css/</code></td>
+</tr>
+<tr>
+<td>Carpeta <code>docs/</code></td>
+<td>Proyecto</td>
+<td>Páginas en Markdown y recursos: <code>img/</code> (capturas), <code>css/</code> y <code>js/</code></td>
+</tr>
+<tr>
+<td>Carpeta <code>site/</code></td>
+<td>Se genera sola</td>
+<td>HTML estático resultante de ejecutar <code>properdocs build</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="plugin-utilizado-search">Plugin utilizado: <code>search</code></h3>
+<table>
+<thead>
+<tr>
+<th>Plugin</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>search</code></td>
+<td>Añade el buscador al sitio. Crea un índice (<code>search/search_index.json</code>) con el texto de todas las páginas y permite buscar sin servidor.</td>
+</tr>
+</tbody>
+</table>
+<p>Este plugin viene activado por defecto, por eso no aparece escrito en <code>properdocs.yml</code>. Si se quisiera declarar de forma explícita bastaría con añadir:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">search</span>
+</code></pre></div>
+<p><img alt="Buscador del tema readthedocs mostrando resultados para la palabra «plugin»." src="../img/practica01/captura08.png" /></p>
+<p><em>Captura 08: El plugin <code>search</code> en funcionamiento: al escribir en el cuadro de búsqueda aparecen las páginas y secciones que contienen el texto.</em></p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Construído con <a href="https://properdocs.org/">ProperDocs</a> usando un <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a> provisto por <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versiones">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script src="../js/copy-button.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
